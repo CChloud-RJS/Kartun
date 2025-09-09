@@ -1,10 +1,11 @@
 <?php 
+include "model/product.php";
 class kartunController extends ProductModel {
-    public function getProducts(){
+    public function getKartun(){
         return $this->findAll();
     }
 
-    public function getProductBy(){
+    public function getKartumBy(){
         if(!isset($_GET['id'])){
             return;
         }

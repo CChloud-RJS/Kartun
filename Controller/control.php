@@ -5,7 +5,7 @@ class kartunController extends ProductModel {
         return $this->findAll();
     }
 
-    public function getKartumBy(){
+    public function getKartunBy(){
         if(!isset($_GET['id'])){
             return;
         }

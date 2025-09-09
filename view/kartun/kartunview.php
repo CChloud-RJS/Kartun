@@ -1,4 +1,5 @@
 <?php
+include "Controller/control.php";
 class kartunView extends kartunController 
 {
     public function show()
